@@ -1,0 +1,177 @@
+body{
+  background-color: rgb(255, 255, 255);
+}
+.botao{
+ background-color: darkorchid;
+color: white;
+padding: 16px;
+border: none;
+border-radius: 7px;
+cursor: pointer;
+position: absolute;
+left: 10%;
+bottom: 330px;}
+
+.botao:hover{
+background-color: blueviolet;
+transform: scale(1.1);
+
+}
+
+  
+.menu{
+  background-color: rgb(128, 25, 97);
+  display: none;
+  width: 350px;
+  height: 280px;
+ left: 40%;
+  color: azure; 
+  text-align: center;
+  text-indent: 20px; ;
+ border-radius: 20px;
+ line-height:  20px;
+position: absolute;
+bottom: 32px;
+left: 20px;
+}
+
+
+
+
+
+
+.menu:hover{
+    background-color: blueviolet;
+    transform: scale(1.1);
+    border-radius: 48px;
+}
+
+
+
+
+
+.botao2{
+  background-color: rgb(35, 163, 103);
+color: white;
+padding: 16px;
+border: none;
+border-radius: 7px;
+cursor: pointer;
+position: absolute;
+right: 12%;
+position: absolute;
+bottom: 330px;
+
+}
+
+
+.botao2:hover{background-color:rgb(18, 129, 78);
+  transform: scale(1.1);}
+  
+  .menu2{
+    background-color: rgb(66, 165, 119);
+    display: none;
+    width: 350px;
+    height: 280px;
+   left: 40%;
+    color: azure; 
+    text-align: center;
+    text-indent: 30px; ;
+   border-radius: 20px;
+   line-height:  20px;
+  position: absolute;
+  bottom: 34px;
+  left: 980px;
+  
+  font-size: 15px;
+}
+
+
+.menu2:hover:hover{ background-color: rgb(13, 102, 61);
+  transform: scale(1.1);
+  border-radius: 40px;}
+
+
+
+
+
+  .botao3{
+    background-color: rgb(132, 156, 145);
+  color: white;
+  padding: 16px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 327px;
+  right: 49%;
+  
+  
+  }
+  
+  
+  .botao3:hover{background-color:rgb(183, 189, 186);
+    transform: scale(1.1);}
+
+    .menu3{
+      background-color: rgb(88, 95, 92);
+      display: none;
+      width: 350px;
+      height: 280px;
+      color: azure; 
+      text-align: center;
+      text-indent: 20px; ;
+     border-radius: 20px;
+     line-height:  20px;
+    position: absolute;
+    bottom: 32px;
+    right: 38%;
+  }
+
+
+  .menu3:hover:hover{ background-color: rgb(127, 136, 132);
+    transform: scale(1.1);
+    border-radius: 50px;}
+  
+
+
+
+h2{
+   text-align: center;
+  font-size: 39px
+  
+ }
+
+ .indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+ }
+ #fonte25{
+  font-size: 25px;
+ }
+
+
+
+
+ .modo-escuro{
+  background-color: #000000;
+ color: rgb(255, 255, 255);
+
+ transition: 5s background-color ease;
+transition: 5s color ease;
+
+ }
+
+
+ #BotaoEscuro{
+  position: absolute;
+  top: 45px;
+  right: 20px;
+  padding: 10px;
+  border-radius: 100px;
+
+ }
+
+
+
+ 
